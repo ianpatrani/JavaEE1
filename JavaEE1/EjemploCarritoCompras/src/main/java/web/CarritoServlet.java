@@ -36,8 +36,8 @@ public class CarritoServlet extends HttpServlet {
         }
 
         try (
-                //imprimimos la lista de articulos
-                 PrintWriter out = response.getWriter()) {
+            //imprimimos la lista de articulos
+            PrintWriter out = response.getWriter()) {
             out.print("<h1>Lista de Articulos</h1>");
             out.print("<br>");
             //iteramos todos los articulos
